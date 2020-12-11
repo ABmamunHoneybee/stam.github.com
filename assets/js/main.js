@@ -68,7 +68,14 @@
         };
     };
     parallaxMouse();
-    
+
+    function parallaxMouse_one() {
+        if ($('#parallax_one').length) {
+            var scene_one = document.getElementById('parallax_one');
+            var parallax_one = new Parallax(scene_one);
+        };
+    };
+    parallaxMouse_one();
     
     //===== Progress Bar
     

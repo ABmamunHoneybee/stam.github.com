@@ -47,10 +47,6 @@ body {
   outline: 0px;
 }
 img.full {
-  height: 160px;
-  width: 250px;
-  box-shadow: 1px 1px 26px -19px #808080cc;
-  padding: 14px;
   transition: 750ms all;
 }
 
@@ -98,6 +94,14 @@ img.full {
   z-index: 2;
   transition: all 0.4s ease 0s;
 }
+.image_div {
+  height: 140px;
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .box:hover .overlay{
   opacity: 1;
   top: 50%;
@@ -106,15 +110,25 @@ img.full {
   font-size: 130px;
   color: #435dbf;
 }
-.banner_1{
-  height: auto;
-  width: 65vh;
+.bigtext{
+  border-left: 5px solid rgb(45 43 133);
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(45 43 133);
 }
+
 @media only screen and (max-width:990px){
   .box { margin: 0 0 30px; }
   .eksociashi{
-  font-size:35px;
+  font-size:55px;
   color: #435dbf;
+}
+footer p {
+  font-size: 10px;
+}
+
+.bigtext{
+  font-size: 18px;
 }
 .banner_1{
   height: auto;
@@ -865,13 +879,10 @@ p {
         3.ABOUT css 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-area {
-    padding-top: 90px;
-    padding-bottom: 100px; } }
+
+}
 @media (max-width: 767px) {
-  .about-area {
-    padding-top: 70px;
-    padding-bottom: 80px; } }
+}
 
 .about-content .about-title {
   font-size: 18px;
